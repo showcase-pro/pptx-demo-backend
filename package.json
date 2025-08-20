@@ -1,0 +1,21 @@
+{
+  "name": "html-to-pptx-backend",
+  "version": "1.0.0",
+  "description": "Backend API for HTML to PPTX conversion",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "pptxgenjs": "^3.12.0",
+    "jsdom": "^23.0.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
